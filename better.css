@@ -1,0 +1,145 @@
+body {
+    background-color: #121212;
+  }
+
+.container {
+    padding: 0 1em;
+    max-width: 100rem;
+    margin: 0 auto;
+   
+}
+
+#countdown-text1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 4rem;
+    
+}
+
+#countdown {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    background-color: #28292b;
+    border-radius: 4px;
+    max-width: fit-content;
+    margin: 20px auto;
+    
+    
+    
+}
+
+.countdown-box {
+    padding: 10px;
+}
+
+.countdown-number {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+.countdown-text {
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    font-size: 2.5rem;
+    max-width: 100%;
+}
+
+#countdown-progress {
+    width: 100%;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+#countdown-bar {
+    width: 0%;
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.2s;
+}
+
+#activity-input{
+    display: flex;
+    border: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 30px;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: #28292b;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#activity-log-form button[type="submit"] {
+    margin: 4px 4px 4px 24.4%;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #28292b;
+    color: #ffff;
+    border-radius: 4px;
+    
+}
+
+#clear-button {
+    cursor: pointer;  
+    padding: 10px;
+    background-color: #28292b;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#activity-log {
+    margin:  10px 0 0 24.4%;
+    list-style: none;
+    max-width: 51.2%;
+    overflow: hidden;
+    line-height: 30px;
+    color: #fff;
+    background-color: #28292b;
+    border-radius: 4px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #countdown-text1 {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-size: 2.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .countdown-text {
+        display: flex;
+        padding: 10px;
+        color: #fff;
+        font-size: 1.5rem;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .countdown-number {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+}

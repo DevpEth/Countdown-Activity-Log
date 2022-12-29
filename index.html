@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="better.css">
+    <title>Countdown</title>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div id="countdown-progress">
+            <div id="countdown-bar"></div>
+        </div>
+        
+    <div id="countdown-text1">Today Ends In:</div>
+    
+    <div id="countdown">
+        <div class="countdown-box">
+        <span class="countdown-text">Hours</span>
+        <div class="countdown-number" id="hours"></div>
+        </div>
+        <div class="countdown-box">
+        <span class="countdown-text">Minutes</span>
+        <div class="countdown-number" id="minutes"></div>
+        </div>
+        <div class="countdown-box">
+        <span class="countdown-text">Seconds</span>
+        <div class="countdown-number" id="seconds"></div>
+        </div>
+    </div>
+    
+    
+        
+    
+        <!-- HTML for the form element -->
+        <form id="activity-log-form">
+            <input type="text" id="activity-input" placeholder="Enter your activity here..." required>
+            <button type="submit">Log Activity</button>
+            <button  type="button" id="clear-button">Clear Activity</button>
+        </form>
+  
+        <!-- HTML for the activity log display -->
+        <div id="activity-log"></div>
+    </div>
+  
+
+      
+    
+
+    
+
+</body>
+<script src="app.js"></script>
+</html>
