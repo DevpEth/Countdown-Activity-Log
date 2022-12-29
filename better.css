@@ -1,7 +1,14 @@
-body {
-    background-color: #121212;
+
+html { 
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(bridge.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
+ 
+  
 .container {
     padding: 0 1em;
     max-width: 100rem;
@@ -13,19 +20,20 @@ body {
     display: flex;
     justify-content: center;
     color: #fff;
-    font-size: 4rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 #countdown {
     display: flex;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
     justify-content: center;
-    background-color: #28292b;
+    background-color: rgb(22, 22, 22);
     border-radius: 4px;
     max-width: fit-content;
     margin: 20px auto;
-    
     
     
 }
@@ -39,6 +47,7 @@ body {
     justify-content: center;
     color: #fff;
     font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -48,6 +57,7 @@ body {
     color: #fff;
     font-size: 2.5rem;
     max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #countdown-progress {
@@ -78,42 +88,52 @@ body {
     padding: 8px;
     border-radius: 3px;
     font-size: 14px;
-    background-color: #28292b;
+    background-color: rgb(22, 22, 22);
     color: #fff;
     margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #activity-log-form button[type="submit"] {
     margin: 4px 4px 4px 24.4%;
     cursor: pointer;
     padding: 10px;
-    background-color: #28292b;
+    background-color: rgb(22, 22, 22);
     color: #ffff;
     border-radius: 4px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
 #clear-button {
     cursor: pointer;  
     padding: 10px;
-    background-color: #28292b;
+    background-color: rgb(22, 22, 22);
     color: #fff;
     border-radius: 4px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #activity-log {
     margin:  10px 0 0 24.4%;
     list-style: none;
     max-width: 51.2%;
+    min-width: 20%;
     overflow: hidden;
     line-height: 30px;
     color: #fff;
-    background-color: #28292b;
+    background-color: rgb(22, 22, 22);
     border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 
-@media only screen and (max-width: 500px) {
+
+
+@media only screen and (max-width: 538px) {
     #countdown-text1 {
         display: flex;
         justify-content: center;
@@ -123,7 +143,7 @@ body {
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 538px) {
     .countdown-text {
         display: flex;
         padding: 10px;
@@ -134,7 +154,7 @@ body {
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 538px) {
     .countdown-number {
         display: flex;
         justify-content: center;

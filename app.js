@@ -84,7 +84,7 @@ formElement.addEventListener("submit", function(event) {
 
   // Create a new list item for the activity
   var activityElement = document.createElement("li");
-  activityElement.innerHTML = currentDateTime.toLocaleString() + ": " + activityInput;
+  activityElement.innerHTML = currentDateTime.toLocaleString() + ": " + activityInput ;
 
   // Add the activity to the activity log
   activityLogElement.appendChild(activityElement);
